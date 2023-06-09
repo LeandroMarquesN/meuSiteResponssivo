@@ -1,0 +1,83 @@
+
+.contato{
+    width:100%;
+    height: 100vh;
+    max-height: 740px;
+    min-height: 740px;
+}
+.contato{
+    display:flex;
+    flex-direction: column;
+}
+
+/* ==== info3 ===== */
+
+.info-contato{
+    position:absolute;
+    margin-top:520px;
+    margin-left:.5rem;
+    color:white;
+    font-family: "Philosopher" ,sans-serif;
+    background: linear-gradient(223deg ,#2ecc71,transparent);
+    padding: 5px;
+    width: 100%;
+    
+    height: 60px;
+    
+}
+/* ============= info3 ======================= */
+
+.info3{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap:5px
+ 
+}
+/* ======== containerContato ======== */
+.containerCont{
+    color:white;
+    width: 260px;
+    padding:9px;
+    margin-top: 50%;
+    margin-left:50px;
+    border:3px solid #FFFF;
+    text-shadow: #FFFF 1px 2px 2px; color: #122932;
+    
+}
+/* ===========  whatsaapp ============ */
+
+.whatsapp{
+    width: 3.2rem;
+    height: 3.2rem;
+    background-image: url('../../assepts/whatsappPequenoIcone.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    animation: pulsar .9s linear infinite;
+}
+
+.whatsapp a{
+    opacity: 0;
+}
+
+/*===========   Redes sociais ============ */
+.redes-sociais i {
+    
+    color:white;
+    padding: 5px;
+    font-size: 1.8rem;
+    
+    display:inline-block;
+    margin-top:3rem;
+    margin-left:1.8rem;
+    
+    transition: all 0.2s;
+    
+    
+}
+.redes-sociais i:hover{
+    color:#2ecc71;
+    transform: scaleY(1.3)
+}

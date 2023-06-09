@@ -1,0 +1,46 @@
+
+
+/* ==================  Animação ================== */
+
+@keyframes pulsar{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    80%{
+        transform: scale(0.9);
+        opacity: 0;
+    }
+     100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+/* //Animaçao */
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    70%{
+        background-position: 70% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@keyframes balanca{
+    0%{
+        transform: rotate(15deg)scale(0)scalex(.2);
+    }50%{
+        transform: rotate(-15deg)scale(1)scalex(1);
+    }100%{
+        transform: rotate(15deg)scale(0)scaleX(.1)scalez(5);
+    }
+}
